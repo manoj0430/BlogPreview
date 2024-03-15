@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_container {
+  background-color: white;
+  max-width: 350px;
+  border-radius: 13px;
+  margin: 8% 0;
+  padding: 15px;
+  box-shadow: 10px 10px;
+}
+svg {
+  width: 100%;
+  
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  width: 80px;
+  border-radius: 6px;
+  padding: 3px 5px;
+  text-align: center;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.publish {
+  font-size: 12px;
+  font-weight: 400;
+}
+.courses {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+  max-width: 60ch;
+}
+.auother {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.auother img{
+    width: 30px;
+    height: 30px;
+}
+.auother p{
+    font-size: 13px;
+    margin: 7px 10px;
+    font-weight: 700;
+    text-align: center;
+}
